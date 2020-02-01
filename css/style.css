@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.4;
+}
+
+a{
+    text-decoration: none;
+}
+
+ .btn{
+     display: inline-block;
+     margin-top: 20px;
+     background: #0292B7;
+     color: #fff;
+     padding: 0.5rem 2rem;
+     border: none;
+     border-radius: 10px;
+     
+ }
+
+ .btn-dark{
+    background: #0292B7;
+    color: #fff;
+}
+
+#server-grid{
+    display: flex;
+    position: sticky;
+    top: 0;
+    background: #fff;
+    color: #333;
+    justify-content: space-between;
+}
+
+
+#server-grid ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+#server-grid ul li {
+    padding: 1.5rem;
+    margin: 0 5rem;
+}
+
+.green-color{
+    color: #34CCE4;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #DEE2EC;
+    height: 100vh;
+    width: auto;
+    border: 150px solid #fff;
+    
+    padding: 50px;
+    margin: 20px
+    
+}
+
+#container .form-group{
+    margin: 2rem;
+    
+}
+#container label{
+    display: block;
+}
+
+
+#container input,
+#container textarea{
+    width: 200%;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
+#button .btn,
+#button .btn-dark{
+    display: flex;
+}
